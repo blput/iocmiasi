@@ -1,0 +1,45 @@
+﻿{
+  "defaultAssembly": "BLIoC",
+  "components": [
+    {
+      "type": "BLIoC.AddOperation, BLIoC",
+      "services": [
+        {
+          "type": "BLIoC.IOperation",
+          "key": "+"
+        }
+      ],
+      "autoActivate": true
+    },
+    {
+      "type": "BLIoC.SubtractOperation, BLIoC",
+      "services": [
+        {
+          "type": "BLIoC.IOperation",
+          "key": "-"
+        }
+      ],
+      "autoActivate": true
+    },
+    {
+      "type": "BLIoC.MultipleOperation, BLIoC",
+      "services": [
+        {
+          "type": "BLIoC.IOperation",
+          "key": "*"
+        }
+      ],
+      "autoActivate": true
+    },
+        {
+      "type": "BLIoC.DivideOperation, BLIoC",
+      "services": [
+        {
+          "type": "BLIoC.IOperation",
+          "key": "/"
+        }
+      ],
+      "autoActivate": true
+    }
+  ]
+}
